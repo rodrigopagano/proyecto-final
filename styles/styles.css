@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.form-register{
+    width: 400px;
+    background: crimson;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+} 
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border:1px solid
+}
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons{
+  width: 100%;
+  background-color: greenyellow;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin:16px 0;
+  font-size: 16px;
+
+
+}
+
+body{
+   background-image: url(../img/color-papel-pastel-verde-rojo-fondo_1122-4045.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.body2{
+    background-image: url(../img/muscle-car-motor.jpg);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: tomato;
+    transition: all .3s;
+
+}
+
+.submenu{
+    position: absolute;
+    background-color: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+visibility: visible;
+opacity: 1;
+
+}
+
+.texto{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightcoral;
+}
+
+.card-group{
+    display: flex;
+    align-items: flex-end;
+}
